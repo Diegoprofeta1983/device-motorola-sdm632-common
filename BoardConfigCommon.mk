@@ -180,7 +180,7 @@ BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci androidboot.usbconf
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.veritymode=eio
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/7824900.sdhci
-#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_KERNEL_OFFSET := 0x00008000
